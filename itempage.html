@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NotAmazon Item List</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="home.css">
+		<link rel="stylesheet" href="itempage.css">
+		<script src="itempage.js"></script>
+	</head>
+
+	<body>
+		<div class="banner">
+
+			<div class="menu">
+				<button class="searchButton" id="menubtn">Menu</i></button>
+			</div>
+			<div class="menuContent" id="menuContent">
+				<a href="account.html">Account Info</a>
+				<a href="orders.html">Orders</a>
+			</div>
+
+			<div class="wrap">
+				<div class="search">
+					<input id="SearchText" type="text" class="searchTerm" placeholder="Search">
+					<button onclick= "document.location='/home'" type="submit" class="searchButton" id='searchButton'>Go</button>
+				</div>
+			</div>
+
+			<div class="cart">
+				<button class="searchButton" id="cartbtn">Cart</button>
+			</div>
+			<div class='cartContent' id='cartContent'>
+				<a href="checkout.html">Checkout</a>
+			</div>
+        </div>
+
+        <div id="mainconten">
+            <div class="top">
+				<div class="topleft">
+						<div class="image"></div>
+				</div>
+				
+				<div class="topright">
+					<div class="title"></div>
+					<button class="searchButton" id="addCart">Add to Cart</button>
+				</div>
+            </div>
+            <div class="reviews">
+				<p><b>User Reviews:</b></p>
+			</div>
+			
+			<div class="submitrev">
+				<select id="rating">
+					<option>5</option>
+					<option>4</option>
+					<option>3</option>
+					<option>2</option>
+					<option>1</option>
+				</select>
+				<textarea id='textarea' rows="5" cols="45" maxlength = 1000 autofocus="true"></textarea>
+				<button id="submit" class="submbtn">Submit Review</button>
+			</div>
+			
+		</div>
+        
+    </body>
+</html>

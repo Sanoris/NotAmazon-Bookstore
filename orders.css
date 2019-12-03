@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+#ordfooter{
+	color: #00B4CC;
+	position: absolute;
+	bottom: 35px;
+	left: 20%;
+	font-size: 24px;
+}
+.termbtn{
+	width: 12% 5px;
+	height: 2%;
+	border: 1px solid black;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 1px 1px 1px 1px;
+	cursor: pointer;
+	font-size: 12px;
+	bottom: 10px;
+	left: 45%;
+	position: absolute;
+}

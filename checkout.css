@@ -1,0 +1,49 @@
+body{
+	background: url(https://fostermore.org/wp-content/uploads/2016/05/booksimage.jpg);
+	background-size: cover;
+}
+#purchase{
+    margin-left: auto;
+    margin-right: auto;
+	top: 30%;
+	position: relative;
+    text-align: center;
+    border: 3px solid #00B4CC;
+    background-color:  lightgrey;
+    padding: 10px;
+	width: 20%;
+}
+
+.first, .last, .email, .phone, .addr{
+	outline: none;
+	color: #00B4CC;
+	text-align: center;
+}
+.first, .last, .email, .phone, .addr:focus{
+	color: #00B4CC;
+}
+.purchbtn{
+	width: 12% 5px;
+	height: 10%;
+	border: 1px solid black;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px 2px 2px 2px;
+	cursor: pointer;
+	font-size: 20px;
+	transform: translate(-50%, 50%);
+}
+.footer{
+	color: #00B4CC;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+}
+p{
+	font-size: 24px;
+	color: #00B4CC;
+}

@@ -1,0 +1,73 @@
+body{
+	background-image: url(https://media.npr.org/assets/img/2015/12/04/best-books-2015-8c5b457cbb33d68c25a146f0ab55fc654bb40264-s1200.jpg);
+	background-size: cover;
+	color: #fff;
+	font-size: 20px;
+}
+.user:focus{
+	color: #00B4CC;
+}
+.user{
+	outline: none;
+	color: #00B4CC;
+	text-align: center;
+}
+.pass:focus{
+	color: #00B4CC;
+}
+.pass{
+	outline: none;
+	color: #00B4CC;
+	text-align: center;
+}
+.phone:focus{
+	color: #00B4CC;
+}
+.phone{
+	outline: none;
+	color: #00B4CC;
+	text-align: center;
+}
+.addr:focus{
+	color: #00B4CC;
+}
+.addr{
+	outline: none;
+	color: #00B4CC;
+	text-align: center;
+}
+#update{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid #00B4CC;
+    background-color: lightgrey;
+    padding: 10px;
+    width: 20%;
+	height: 150px;
+	position: absolute;
+	left: 39.1%;
+	top: 20%;
+}
+.submbtn{
+	width: 10% 5px;
+	height: 12%;
+	border: 1px solid black;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px 2px 2px 2px;
+	cursor: pointer;
+	font-size: 20px;
+	transform: translate(-50%, 50%);
+	top: -5px;
+}
+.footer{
+	color: #00B4CC;
+	position: absolute;
+	bottom: 0;
+	left: 26%;
+	top: 480px;
+	font-size: 24px;
+}

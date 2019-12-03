@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    border: 3px solid #00B4CC;
+    background-color:  lightgrey;
+    padding: 10px;
+    width: 30%;
+    height: 50%;
+}
+
+input{
+    margin: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 50%
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    text-align: center;
+	color: #00B4CC;
+}
+h1{
+    text-align: center;
+	color: #00B4CC;
+}
+h2{
+	text-align: center;
+	color: #00B4CC;
+	font-size: 15px;
+}
+h3, h4{
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+}
+body{
+	background-image: url(https://i.kym-cdn.com/photos/images/original/000/985/633/095.gif);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+form{
+	color: #00B4CC;
+}
+#red{
+    color: red;
+}
+.submbtn{
+	width: 12% 5px;
+	height: 12%;
+	border: 1px solid black;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px 2px 2px 2px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.signbtn{
+	width: 12% 5px;
+	height: 12%;
+	border: 1px solid black;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px 2px 2px 2px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.username:focus{
+	color: #00B4CC;
+}
+.username{
+	outline: none;
+	color: #00B4CC;
+}
+.pass:focus{
+	color: #00B4CC;
+}
+.pass{
+	outline: none;
+	color: #00B4CC; 
+}
